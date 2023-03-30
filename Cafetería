@@ -1,0 +1,105 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CalculadoraCafe
+{
+
+    public class OperacionesBasicas
+    {
+        
+        public static  double VN1(double x1)
+        {
+            x1 = x1 + 40;
+            return x1;
+
+        }
+        public static double VN2(double x2)
+        {
+            x2 = x2 + 60;
+            return x2;
+
+        }
+        public static double VN3(double x3)
+        {
+            x3 = x3 + 55;
+            return x3;
+
+        }
+        public static double VN4(double x4)
+        {
+            x4 = x4 + 30;
+            return x4;
+
+        }
+        public static double VN5(double x5)
+        {
+            x5 = x5 + 50;
+            return x5;
+
+        }
+        public static double VN6(double x6)
+        {
+            x6 = x6 + 45;
+            return x6;
+
+        }
+
+        public static double PN1(double x1)
+        {
+            x1 = x1 + 50;
+            return x1;
+
+        }
+        public static double PN2(double x2)
+        {
+            x2 = x2 + 35;
+            return x2;
+
+        }
+        public static double PN3(double x3)
+        {
+            x3 = x3 + 20;
+            return x3;
+
+        }
+        public static double PN4(double x4)
+        {
+            x4 = x4 + 55;
+            return x4;
+
+        }
+        public static double PN5(double x5)
+        {
+            x5 = x5 + 60;
+            return x5;
+
+        }
+        public static double PN6(double x6)
+        {
+            x6 = x6 + 40;
+            return x6;
+
+        }
+
+
+        //Operaciones Basicas
+
+        public static double Suma(double n1, double n2, double n3, double n4, double n5, double n6)
+        {
+            double Res = 0;
+            Res = n1 + n2 + n3 + n4 + n5 + n6;
+            return Res;
+        }
+
+        public static double Resta(double n1, double n2, double n3, double n4, double n5, double n6)
+        {
+            double Res = 0;
+            Res = n1 - n2 - n3 - n4 - n5 - n6;
+            return Res;
+        }
+
+    }
+}
